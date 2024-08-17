@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.05" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test google search functionality" name="Validate google search is working" time="7.359">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And User is on  google Search page..........................................passed
+When User enter a text in search box........................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hrm presence of login application" name="Orange hrm application for the  login" time="8.536">
+<system-out><![CDATA[
+Given I launch chrome browser...............................................passed
+When I open orange hrm page.................................................passed
+Then I verify that username and password....................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
